@@ -1,51 +1,99 @@
-🎨 Landing Page com Materialize CSS
+🎨 Landing Page: Materialize Parallax
 
-Projeto desenvolvido para explorar o uso de Frameworks CSS, focando na agilidade de desenvolvimento e padronização visual. O objetivo foi criar uma Landing Page moderna com efeito Parallax e design totalmente responsivo.
+Projeto desenvolvido na disciplina de Desenvolvimento Front-End, explorando o poder dos Frameworks CSS.
 
-🚀 Funcionalidades Implementadas
+📖 Sobre o Projeto
 
-O código utiliza diversos componentes interativos do Materialize:
+Este projeto consiste em uma Landing Page Responsiva desenvolvida com o framework Materialize CSS. O foco principal foi a implementação do efeito Parallax (rolagem com profundidade) e a utilização de componentes pré-estilizados para acelerar o desenvolvimento de interfaces modernas e adaptáveis.
 
-[x] Efeito Parallax: Imagens de fundo com rolagem assíncrona para profundidade visual.
+O layout segue o conceito Mobile First, garantindo uma experiência fluida em dispositivos móveis antes de adaptar para desktops.
 
-[x] Navbar Responsiva: Menu que se adapta automaticamente para Mobile (Sidenav com ícone de hambúrguer) e Desktop.
+🚀 Funcionalidades & Componentes
 
-[x] Grid System: Uso de colunas (col s12 m4) para alinhar ícones e textos de forma fluida.
+O código explora diversos recursos interativos e visuais do Materialize:
 
-[x] Ícones: Integração com a biblioteca Google Material Icons.
+$$x$$
 
-[x] Footer: Rodapé estruturado com links e informações de copyright.
+ Efeito Parallax: Imagens de fundo com rolagem assíncrona, criando imersão visual.
+
+$$x$$
+
+ Navbar Responsiva: Menu de navegação que se transforma automaticamente:
+
+Desktop: Links horizontais à direita.
+
+Mobile: Menu "hambúrguer" lateral (Sidenav) com ativação via JavaScript.
+
+$$x$$
+
+ Grid System Fluido: Sistema de colunas (col s12 m4) para alinhamento de conteúdo.
+
+$$x$$
+
+ Cards & Ícones: Apresentação de serviços/vantagens utilizando Google Material Icons.
+
+$$x$$
+
+ Footer Semântico: Rodapé estruturado com links de navegação e copyright.
+
+📂 Estrutura de Arquivos
+
+A organização do projeto segue as boas práticas de separação de responsabilidades:
+
+Projeto_Materialize/
+│
+├── css/
+│   ├── materialize.min.css  # Estilos Core do Framework
+│   └── estilos.css          # Personalizações (Custom CSS)
+│
+├── js/
+│   ├── materialize.min.js   # Scripts Core (Sidenav, Parallax)
+│   └── configuracoes.js     # Inicialização dos componentes (jQuery)
+│
+├── imagens/
+│   ├── imagen01.jpg
+│   ├── imagen02.jpg
+│   └── ...
+│
+└── index.html               # Estrutura Semântica Principal
+
 
 💻 Exemplo de Código (Grid System)
 
-O layout foi construído pensando no conceito Mobile First. Veja como as colunas se comportam:
+O layout utiliza classes utilitárias para controlar a largura dos elementos em diferentes telas:
 
-<!-- No celular ocupa 12 colunas (s12), no tablet/desktop ocupa 4 (m4) -->
-<div class="col s12 m4">
-    <div class="icon-block">
-        <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
-        <h5 class="center">Velocidade</h5>
-        <p class="light">Texto descritivo...</p>
+<!-- Comportamento Responsivo:
+     s12 = Ocupa 12 colunas (100%) em telas pequenas (Small)
+     m4  = Ocupa 4 colunas (33%) em telas médias/grandes (Medium+) -->
+
+<div class="row">
+    <div class="col s12 m4">
+        <div class="icon-block">
+            <h2 class="center brown-text"><i class="material-icons">flash_on</i></h2>
+            <h5 class="center">Alta Performance</h5>
+            <p class="light">Carregamento otimizado utilizando minificação CSS.</p>
+        </div>
     </div>
+    <!-- ... outros blocos ... -->
 </div>
 
 
 🛠️ Tecnologias Utilizadas
 
-HTML5: Estrutura semântica.
+HTML5: Estruturação semântica do conteúdo.
 
-Materialize CSS: Framework visual (Minified CSS).
+Materialize CSS: Framework front-end baseado no Material Design do Google.
 
-JavaScript / jQuery: Para ativação dos scripts de animação (Parallax e Sidenav).
+JavaScript / jQuery: Manipulação do DOM e inicialização de componentes dinâmicos.
 
-Google Fonts: Tipografia e Ícones.
+Google Fonts: Tipografia e Ícones vetoriais.
 
-⚙️ Como Executar
+⚙️ Como Executar Localmente
 
-Baixe a pasta do projeto.
+Clone o repositório ou baixe o ZIP dos arquivos.
 
-Certifique-se de que as pastas css, js e imagens estão no mesmo local do index.html.
+Mantenha a estrutura de pastas (css, js, imagens) inalterada para não quebrar os caminhos.
 
-Abra o arquivo index.html em qualquer navegador moderno.
+Abra o arquivo index.html em seu navegador de preferência (Chrome, Firefox, Edge).
 
-Projeto desenvolvido na disciplina de Desenvolvimento Front-End.
+Dica: Para visualizar o site em modo mobile, pressione F12 e ative o modo de dispositivo (Ctrl+Shift+M).
