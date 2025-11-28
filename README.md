@@ -1,12 +1,12 @@
-💻 Desenvolvimento Front-End Para Web
+# 💻 Desenvolvimento Front-End Para Web
 
 Repositório de Desenvolvimento Front-End (1º Semestre - ADS), focado na construção de interfaces web, design responsivo e uso de frameworks modernos.
 
-📂 Trilha de Aprendizado e Projetos
+## 📂 Trilha de Aprendizado e Projetos
 
 Abaixo estão os projetos desenvolvidos ao longo do semestre:
 
-1️⃣ Landing Page com Materialize
+### 1️⃣ Landing Page com Materialize
 
 Projeto focado no uso de Frameworks CSS para agilidade e responsividade.
 
@@ -14,13 +14,13 @@ Tecnologia: Materialize CSS.
 
 Destaques: Efeito Parallax, Grid System e componentes de UI.
 
-2️⃣ Helicópteros de Luxo (Avaliação A1)
+### 2️⃣ Helicópteros de Luxo (Avaliação A1)
 
 Projeto final avaliativo (Landing Page Completa).
 
 Destaques: Integração com API de Mapas (Leaflet.js), menu responsivo com JavaScript (DOM Manipulation) e layout sofisticado.
 
-🛠️ Tecnologias e Ferramentas
+## 🛠️ Tecnologias e Ferramentas
 
 <div style="display: inline_block">
 
